@@ -1,12 +1,12 @@
 <?php
-namespace hoaaah\stylish;
+namespace hoaaah\agency;
 
 use yii\web\AssetBundle;
 
 /**
  * sb-StylishPortofolio AssetBundle
  */
-class StylishPortofolioAsset extends AssetBundle
+class AgencyAsset extends AssetBundle
 {
     public $sourcePath='@vendor/hoaaah/yii2-startbootstrap-agency/assets';
     public $baseUrl = '@web';
