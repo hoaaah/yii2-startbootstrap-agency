@@ -1,0 +1,21 @@
+{
+    "name": "hoaaah/yii2-startbootstrap-agency",
+    "description": "This extensions is library for Startbootstrap Stylish-Portofolio Themes",
+    "type": "library",
+    "keywords": ["yii2","extension","startbootstrap","agency","design","onepage"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hoaaah",
+            "email": "heru@belajararief.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "hoaaah\\agency\\": ""
+        }
+    }
+}
