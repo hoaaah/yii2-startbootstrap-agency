@@ -16,7 +16,7 @@ class AgencyAsset extends AssetBundle
     ];
     
     public $js=[
-        'js/agency/min.js',
+        'js/agency.min.js',
         'js/contact_me.js',
         'js/jqBootstrapValidation.js',
     ];
