@@ -34,7 +34,28 @@ to the require section of your `composer.json` file.
 Usage
 -----
 
-Once the extension is installed, simply use it in your code by  :
+You can use an example views in views-example and copy it to your view.
+
+Don't forget to use this in your view
 
 ```php
-<?= \hoaaah\agency\AutoloadExample::widget(); ?>```
+use hoaaah\agency\AgencyAsset;
+
+AgencyAsset::register($this);
+```
+
+and just in case you want to use vendor image, to call any content of vendor image you can use this
+
+```php
+$image = hoaaah\agency\AgencyAsset::register($this);
+
+<img src=<?= $agency->baseUrl.'/img/portfolio/startup-framework.png' ?> class="img-responsive" alt="">
+```
+it will call startup-framework.png from /vendor/hoaaah/yii2-startbootstrap-agency/assets/img/portofolio/startup-framework.png
+
+## Creator
+
+This startbootstrap-agency library for Yii2 was created by and is maintained by **[Heru Arief Wijaya](http://belajararief.com/)**.
+
+* https://twitter.com/hoaaah
+* https://github.com/hoaaah
