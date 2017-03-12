@@ -19,7 +19,7 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-composer require hoaaah/yii2-startbootstrap-agency "*"
+composer require hoaaah/yii2-startbootstrap-agency:dev-master
 ```
 
 or add
