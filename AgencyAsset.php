@@ -13,6 +13,7 @@ class AgencyAsset extends AssetBundle
     
     public $css=[
         'css/agency.min.css',
+        'vendor/font-awesome/css/font-awesome.min.css',
     ];
     
     public $js=[
